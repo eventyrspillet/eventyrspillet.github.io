@@ -1,0 +1,50 @@
+
+*{
+    /*font-family: 'Coming Soon', cursive; !important;*/
+}
+
+body {
+	background-image: url("../img/bakgrunn.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+html, body, #container {
+    height: 100%;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+p{
+    font-size: 2.5em;
+}
+
+
+.box{
+    min-height: 100px;
+    height: 100px;
+    min-width: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 8.33333333%;
+
+}
+
+.box:not(:active) {
+
+    transition: background-color 300ms step-end;
+}
+
+.box:active {
+    background-color: #555;
+    -ms-transition-duration: 0.2s;
+    -ms-transform: scale(1.2);
+    -webkit-transition-duration: 0.2s;
+    -webkit-transform: scale(1.2);
+    -moz-transition-duration: 0.2s;
+    -moz-transform: scale(1.2);
+    -o-transition-duration: 0.2s;
+    -o-transform: scale(1.2);
+}

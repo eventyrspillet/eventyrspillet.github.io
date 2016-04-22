@@ -1,0 +1,27 @@
+.green{
+    background-color: #70AD6B;
+	border-style: outset;
+	border-width: 8px;
+	border-color: #70AD6B;
+}
+
+.blue{
+    background-color: #87A6D9;
+	border-style: outset;
+	border-width: 8px;
+	border-color: #87A6D9;
+}
+
+.red{
+    background-color: #E56666;
+	border-style: outset;
+	border-width: 8px;
+	border-color: #E56666;
+}
+
+.yellow{
+    background-color: #DFC841;
+	border-style: outset;
+	border-width: 8px;
+	border-color: #DFC841;
+}
